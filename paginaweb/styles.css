@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+}
+
+
+
+.nav__img img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    align-items: center;
+    padding: 20px;
+    
+
+}
+
+.nav__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.nav__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_item {
+    margin-right: 20px;
+    color: #fff;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0;
+    
+    background-image: url(./imagenes/pexels-kammeran-gonzalezkeola-20860153\ \(4\).jpg);
+}
+
+.presentacion h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.presentacion p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.menu_logos {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_logos_img {
+    margin-right: 20px;
+}
+
+.menu_logos_img img {
+    width: 50px;
+    height: 50px;
+}
+
+.mis_proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0;
+    
+}
+
+.mis_proyectos h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.mis_proyectos p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+   
+}
+
+.proyectos div {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.proyectos div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proyectos_texto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+}
+
+.proyectos_texto div {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #333;
+}
+
+.contactos h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contactos p {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.contactos ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contactos li {
+    margin-right: 20px;
+}
+
+.contactos li img {
+    width: 50px;
+    height: 50px;
+}
