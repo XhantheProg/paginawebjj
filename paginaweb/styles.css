@@ -96,7 +96,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 150px 0;
+    padding: 40px 0;
     
 }
 
@@ -118,31 +118,67 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px 0;
+    padding: -50px 0;
+   padding-bottom: 0;
    
 }
 
 .proyectos div {
     width: 300px;
     height: 200px;
-    margin: 20px;
+    margin: 0 20px 0 20px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color:#333;
+    background-color: darkgray;
+    
+
 }
+.proyectos_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: -50px 0;
+   padding-bottom: 0;
+}
+
+.proyectos_2 div{
+    width: 300px;
+    height: 300px;
+    margin: 30px 20px 0 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color:#333;
+    background-color: darkgray;
+    margin-top: 0;
+}
+
+.proyectos_2 div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+
 
 .proyectos div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
 }
 
 .proyectos_texto {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     padding: 50px 0;
-    background-color: #f5f5f5;
+    background-color: 333;
+   
 }
 
 .proyectos_texto div {
@@ -157,6 +193,7 @@ body {
     justify-content: center;
     font-size: 1.2rem;
     text-align: center;
+    color: darkgray;
 }
 
 .contactos {
@@ -169,13 +206,13 @@ body {
 
 .contactos h1 {
     font-size: 2rem;
-    color: #fff;
+    color: grey;
     margin-bottom: 20px;
 }
 
 .contactos p {
     font-size: 1.2rem;
-    color: #fff;
+    color: grey;
     text-align: center;
     max-width: 500px;
     margin-bottom: 40px;
